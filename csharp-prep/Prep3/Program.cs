@@ -3,11 +3,13 @@ class Program
 {
     static void Main(string[] args)
     {
+        
         Random rand = new Random();
         int magicNumber= rand.Next(100);
         int guess=0;
+        System.Console.Write("What is the magic number? ");
         while(guess!=magicNumber){
-            System.Console.Write("What is the magic number? ");
+            
             guess=int.Parse(Console.ReadLine());
             if(guess<magicNumber){
                 System.Console.WriteLine("Higher!");
