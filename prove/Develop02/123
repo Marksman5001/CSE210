@@ -1,0 +1,16 @@
+{
+  "_PromptList": [
+    "How have you seen the hand of the Lord today?",
+    "What was the most interesting 10 minutes of today?",
+    "What is one thing from today that you want to work on tomorrow?",
+    "What were your impressions from scripture study today?",
+    "What did you do today that you are most proud of?"
+  ],
+  "_EntryList": [
+    {
+      "_promptName": "What was the most interesting 10 minutes of today?",
+      "_dateOfEntry": "1/30/2025",
+      "_response": "123"
+    }
+  ]
+}
