@@ -10,11 +10,11 @@ public class Journal{
         _EntryList = new List<Entry>();
         _PromptList = new List<string>
         {
-            "How have you seen the hand of the Lord today?",
-            "What was the most interesting 10 minutes of today?",
-            "What is one thing from today that you want to work on tomorrow?",
-            "What were your impressions from scripture study today?",
-            "What did you do today that you are most proud of?"
+            "How have you seen the hand of the Lord today? ",
+            "What was the most interesting 10 minutes of today? ",
+            "What is one thing from today that you want to work on tomorrow? ",
+            "What were your impressions from scripture study today? ",
+            "What did you do today that you are most proud of? "
         };
     }
     public Journal(List<Entry> entryList) : this()
