@@ -1,4 +1,6 @@
 using System;
+using System.Security.Principal;
+using System.Windows;
 
 public class Tile{
     private List<int> color = new List<int>();
@@ -9,5 +11,6 @@ public class Tile{
         this.type=tiletype;
         this.color=rgb;
         this.coords=coordinates;
-    }
+}
+
 }
