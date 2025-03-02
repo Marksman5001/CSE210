@@ -37,7 +37,9 @@ class ListingActivity : Activity{
             inputs++;
             stopwatch.Stop();
             duration-=stopwatch.ElapsedMilliseconds/1000;
+            if(stopwatch.ElapsedMilliseconds>1000){
             stopwatch.Reset();
+            }
         }
         System.Console.WriteLine($"You listed {inputs} things.");
         DisplayEnd();
