@@ -7,7 +7,7 @@ class ListingActivity : Activity{
 
     private List<string> _Promptlist;
 
-    public ListingActivity(string name = "Listing Activity", string description="This activity will help you reflect on the good things in your life by having you list as many things as you can in a certain area.") : base (name, description){
+    public ListingActivity(string name = "Listing", string description="This activity will help you reflect on the good things in your life by having you list as many things as you can in a certain area.") : base (name, description){
         _Promptlist= new List<string>{
             "Who are people that you appreciate?",
             "What are personal strengths of yours?",
@@ -18,6 +18,9 @@ class ListingActivity : Activity{
         
     }
 
+    /// <summary>
+    /// Main activity of the Listing Activity class
+    /// </summary>
     public void MainActivity(){
         DisplayStart();
         int inputs=0;

@@ -30,6 +30,7 @@ class Activity{
         System.Console.WriteLine(_Description);
         System.Console.Write("How long do you want the activity to last in seconds? -");
         _Duration=int.Parse(Console.ReadLine());
+        // minimum duration of activity for exceeding requirements
         if(_Duration<=10){
             _Duration=10;
         }

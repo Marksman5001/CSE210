@@ -6,7 +6,7 @@ class ReflectionActivity : Activity{
     private List<string> _Promptlist;
     private List<string> _Reflectlist;
 
-    public ReflectionActivity(string name="Reflection Activity", string description="This activity will help you reflect on times in your life when you have shown strength and resilience. This will help you recognize the power you have and how you can use it in other aspects of your life.") : base(name, description){
+    public ReflectionActivity(string name="Reflection", string description="This activity will help you reflect on times in your life when you have shown strength and resilience. This will help you recognize the power you have and how you can use it in other aspects of your life.") : base(name, description){
         _Promptlist=new List<string>(["Think of a time when you stood up for someone else.", "Think of a time when you did something really difficult.", "Think of a time when you helped someone in need.", "Think of a time when you did something truly selfless."] );
         _Reflectlist = new List<string>(["Why was this experience meaningful to you?",
     "Have you ever done anything like this before?",
