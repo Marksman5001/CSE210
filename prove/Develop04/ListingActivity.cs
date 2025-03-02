@@ -29,7 +29,7 @@ class ListingActivity : Activity{
         System.Console.WriteLine(_Promptlist.ElementAt(rand.Next(_Promptlist.Count)));
         System.Console.WriteLine("\nThink about what you will list...");
         IdleAnimation(3);
-        System.Console.WriteLine("Write as many answers as you can think of. -");
+        System.Console.WriteLine("Write as many answers as you can think of.");
         Stopwatch stopwatch = new Stopwatch();
         while(duration-3>0){
             stopwatch.Start();
