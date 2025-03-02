@@ -4,6 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
+
         Assignment assignment = new Assignment("Samuel Bennett", "Multiplication");
         Console.WriteLine(assignment.GetSummary());
 
@@ -14,5 +15,6 @@ class Program
         WritingAssignment writingAssignment = new WritingAssignment("Mary Waters", "European History", "The Causes of World War II");
         System.Console.WriteLine(writingAssignment.GetSummary());
         System.Console.WriteLine(writingAssignment.GetWritingInfo());
+        
     }
 }
