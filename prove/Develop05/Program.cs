@@ -11,6 +11,7 @@ class Program
         int gameinput=-1;
         List<Goal> goals=new List<Goal>();
         while(input!=5){
+            // This is a save and load menu, for the extra credit, it starts here, but is referenced elsewhere
             List<string> saves=new List<string>(Directory.GetFiles("./Saves"));
             System.Console.WriteLine("1. Load\n2. Start Game\n3. Create new goals\n4. Complete goals\n5. Quit");
             input=int.Parse(Console.ReadLine());
