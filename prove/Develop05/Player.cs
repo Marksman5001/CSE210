@@ -6,7 +6,6 @@ class Player{
         _Health=0;
         _Damage=0;
     }
-
     public int GetHealth(){
         return _Health;
     }
