@@ -272,9 +272,10 @@ class Room{
                 incombat=false;
                 break;
             }
-            Thread.Sleep(1000);
+            
             System.Console.WriteLine($"The enemy strikes at you, dealing {enemy.GetDamage()} damage to you!");
             player.TakeDamage(enemy.GetDamage());
+            Thread.Sleep(1000);
             if(player.GetHealth()<=0){
                 System.Console.WriteLine("You are slain...");
                 Environment.Exit(0);
