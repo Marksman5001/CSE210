@@ -13,7 +13,7 @@ class Entity{
         _Damage=damage;
     }
 
-    public void TakeDamage(int damage){
+    public virtual void TakeDamage(int damage){
         _Health-=damage;
     }
     public int GetDamage(){

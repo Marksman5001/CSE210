@@ -8,6 +8,7 @@ class Level{
 
     }
     public Level(int roomcount){
+        _Rooms=new List<Room>();
         _Roomcount=roomcount;
         InitializeRooms();
     }
@@ -15,10 +16,19 @@ class Level{
     private void InitializeRooms(){
         Random rand = new Random();
         for(int i=0; i<_Roomcount; i++){
-
-            Room room = new Room();
-            _Rooms.Add(room);
+            if(i==_Roomcount-1){
+                Room room = new Room(true);
+                _Rooms.Add(room);
+            }
+            else{
+                Room room = new Room();
+                _Rooms.Add(room);
+            }
+            
         }
+    }
+    public List<Room> GetRooms(){
+        return _Rooms;
     }
     
 }
